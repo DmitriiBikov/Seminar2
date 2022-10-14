@@ -14,32 +14,33 @@
 //     number = Convert.ToInt32(Console.ReadLine());
 // }
 // {
-Console.WriteLine("Введите число:");
+
+Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-switch (number)
+switch(number)
 {
- case1:
-Console.WriteLine("Понедельник");
-brake;
-case2:
-Console.WriteLine("Вторник");
-brake;
-case3:
-Console.WriteLine("Среда");
-brake;
-case4:
-Console.WriteLine("Четверг";)
-brake;
-case5:
-Console.WriteLine("Пятница");
-brake;
-case6:
-Console.WriteLine("Суббота - Выходной");
-brake;
-case7:
-Console.WriteLine("Воскресенье - выходной");
-brake;
-default:
-Console.WriteLine("Нет такого дня недели");
-brake;
+    case 1:
+        Console.WriteLine("Понедельник");
+        brake;
+    case 2:
+        Console.WriteLine("Вторник");
+        brake;
+    case 3:
+        Console.WriteLine("Среда");
+        brake;
+    case 4:
+        Console.WriteLine("Четверг");
+        brake;
+    case 5:
+        Console.WriteLine("Пятница");
+        brake;
+    case 6:
+        Console.WriteLine("Суббота - Выходной");
+        brake;
+    case 7:
+        Console.WriteLine("Воскресенье - выходной");
+        brake;
+    default:
+        Console.WriteLine("Нет такого дня недели");
+        brake;
 }
