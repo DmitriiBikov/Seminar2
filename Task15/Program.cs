@@ -7,40 +7,32 @@
 // 7 -> да
 // 1 -> нет
 
-
-// while (number < 1 || number > 7)
-// {
-//     Console.WriteLine($"Такого дня недели не существует =(");
-//     number = Convert.ToInt32(Console.ReadLine());
-// }
-// {
-
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 switch(number)
 {
     case 1:
         Console.WriteLine("Понедельник");
-        brake;
+        break;
     case 2:
         Console.WriteLine("Вторник");
-        brake;
+        break;
     case 3:
         Console.WriteLine("Среда");
-        brake;
+        break;
     case 4:
         Console.WriteLine("Четверг");
-        brake;
+        break;
     case 5:
         Console.WriteLine("Пятница");
-        brake;
+        break;
     case 6:
         Console.WriteLine("Суббота - Выходной");
-        brake;
+        break;
     case 7:
         Console.WriteLine("Воскресенье - выходной");
-        brake;
+        break;
     default:
         Console.WriteLine("Нет такого дня недели");
-        brake;
+        break;
 }
