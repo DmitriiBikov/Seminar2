@@ -8,33 +8,9 @@
 // 78 -> третьей цифры нет
 
 // 32679 -> 6
-// int number_2 = Convert.ToInt32(Console.ReadLine());
 
 
 
-
-
-// Console.WriteLine("Введите число:");
-// int number = Convert.ToInt32(Console.ReadLine());
-// {
-//     while (number < 99)
-//    Console.WriteLine($"Третьей цифры в заданном вами числе нет =(");
-//    number = Convert.ToInt32(Console.ReadLine());
-// }
-// {
-// number = Convert.ToInt32(Console.ReadLine());
-
-//     while (number > 999);
-    
-//     int number_2 = number / 10;
-    
-//     number = Convert.ToInt32(Console.ReadLine());
-// }
-//     {
-// while (number < 999 || number > 99);
-// int number = number % 10;
-//     }
-// Console.WriteLine($"Третья цифра этого числа: {number}");
 
 Console.WriteLine("Введите число:");
 int number = Convert.ToInt32(Console.ReadLine());
