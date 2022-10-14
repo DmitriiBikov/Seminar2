@@ -7,19 +7,12 @@
 // 918 -> 1
 
 
-Console.Writeline("Введите трехзначное число");
-int a = Convert.ToInt32(Console.Readline());
-   if (a < 100) 
-     Console.Writeline($"Вы ввели не трехзначное число =(");
-
-     if (a > 100)
-  {
-      do  
-         {
-          (a=a/10);
-         Console.Write($"{a}"); 
-         }
-  while (a/100>0);
- }
- int number = a%10;
-Console.Writeline($"{a}");
+Console.WriteLine("Введите трехзначное число:");
+int number = Convert.ToInt32(Console.ReadLine());
+while (number < 100 || number > 1000)
+{
+   Console.WriteLine($"Вы ввели не трехзначное число =(");
+   number = Convert.ToInt32(Console.ReadLine());
+}
+int number_2 = number / 10 % 10;
+Console.WriteLine($"Вторая цифра этого числа: {number_2}");
