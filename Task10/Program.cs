@@ -9,17 +9,17 @@
 
 Console.Writeline("Введите трехзначное число");
 int a = Convert.ToInt32(Console.Readline());
-// if (a < 100) 
-//  Console.Writeline($"Вы ввели не трехзначное число =(");
+   if (a < 100) 
+     Console.Writeline($"Вы ввели не трехзначное число =(");
 
-//  if (a > 100)
-//  {
-//  do  
-//  {
-//     (a=a/10);
-//       Console.Write($"{a}"); 
-//       }
-//   while (a/100>0);
-//  }
-//  int number = a%10;
-// Console.Writeline($"{a}");
+     if (a > 100)
+  {
+      do  
+         {
+          (a=a/10);
+         Console.Write($"{a}"); 
+         }
+  while (a/100>0);
+ }
+ int number = a%10;
+Console.Writeline($"{a}");
