@@ -12,25 +12,25 @@ int number = Convert.ToInt32(Console.ReadLine());
 switch(number)
 {
     case 1:
-        Console.WriteLine("Понедельник");
+        Console.WriteLine("Нет =(");
         break;
     case 2:
-        Console.WriteLine("Вторник");
+        Console.WriteLine("Нет =(");
         break;
     case 3:
-        Console.WriteLine("Среда");
+        Console.WriteLine("Нет =(");
         break;
     case 4:
-        Console.WriteLine("Четверг");
+        Console.WriteLine("Нет =(");
         break;
     case 5:
-        Console.WriteLine("Пятница");
+        Console.WriteLine("Нет =(");
         break;
     case 6:
-        Console.WriteLine("Суббота - Выходной");
+        Console.WriteLine("Да=)");
         break;
     case 7:
-        Console.WriteLine("Воскресенье - выходной");
+        Console.WriteLine("Да=)");
         break;
     default:
         Console.WriteLine("Нет такого дня недели");
